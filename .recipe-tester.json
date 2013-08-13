@@ -8,8 +8,8 @@
     "node_attributes": {
         "elasticsearch": {
             "cluster_name": "logstash_vagrant",
-            "min_mem": '64m',
-            "max_mem": '64m',
+            "min_mem": "64m",
+            "max_mem": "64m",
             "limits": {
                 "nofile":  1024,
                 "memlock": 512
@@ -17,13 +17,11 @@
         },
         "logstash": {
             "server": {
-                "xms": '128m',
-                "xmx": '128m',
+                "xms": "128m",
+                "xmx": "128m",
                 "enable_embedded_es": false,
-                "elasticserver_ip": '127.0.0.1'
-          }
+                "elasticserver_ip": "127.0.0.1"
+            }
         }
-      }
-
     }
 }
